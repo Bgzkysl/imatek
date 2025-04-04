@@ -3,71 +3,77 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>İmatek Mekatronik</title>
+  <title>İmatek Mekatronik | Endüstriyel Otomasyon ve Mekatronik Sistem Çözümleri</title>
+  <meta name="description" content="İmatek Mekatronik, kimya ve tekstil sektörüne özel endüstriyel otomasyon ve mekatronik sistem çözümleri sunan mühendislik firmasıdır." />
+  <meta name="keywords" content="imatek, mekatronik, otomasyon, endüstriyel otomasyon, kimyasal dozaj, plc, scada, sensör, tekstil otomasyonu" />
+  <meta name="author" content="İmatek Mekatronik" />
+  <meta property="og:title" content="İmatek Mekatronik" />
+  <meta property="og:description" content="Kimya ve tekstil sektörüne özel otomasyon çözümleri sunan mühendislik firması." />
+  <meta property="og:image" content="https://www.ima-tek.com/logo.png" />
+  <meta property="og:url" content="https://www.ima-tek.com" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://www.ima-tek.com" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {
       background-color: #f8f9fa;
       color: #111111;
     }
-    .dropdown:hover .dropdown-menu,
-    .dropdown:focus-within .dropdown-menu {
-      display: flex !important;
-      flex-direction: column;
+    h1, h2, h3, h4, h5, h6 {
+      color: #2e2e2e;
     }
   </style>
 </head>
-<body>
+<body class="bg-gray-50 text-[#111111]">
   <!-- Navbar -->
-  <nav class="bg-white shadow-md sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <a href="index.html" class="flex items-center space-x-3">
+  <nav class="bg-white shadow-md sticky top-0 z-50 w-full">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex flex-wrap justify-between items-center">
+      <a href="index.html" class="flex items-center space-x-3 mb-2 sm:mb-0">
         <img src="logo.png" alt="İmatek Logosu" class="h-10 w-auto" />
         <h1 class="text-xl font-bold text-[#2e2e2e]">İmatek Mekatronik</h1>
       </a>
-      <ul class="flex space-x-6 text-[#2e2e2e] relative items-center">
-        <li><a href="index.html" class="hover:text-[#3a3a3a]">Anasayfa</a></li>
-        <li><a href="#hakkimizda" class="hover:text-[#3a3a3a]">Hakkımızda</a></li>
-        <li class="dropdown relative focus-within:outline-none">
-          <button class="hover:text-[#3a3a3a] cursor-pointer focus:outline-none">Çözümler</button>
-          <ul class="dropdown-menu absolute left-0 top-full mt-2 w-64 bg-white shadow-md rounded hidden z-50">
-            <li><a href="cozumler.html#otomasyon" class="block px-4 py-2 hover:bg-gray-100">Endüstriyel Otomasyon Çözümleri</a></li>
-            <li><a href="cozumler.html#mekatronik" class="block px-4 py-2 hover:bg-gray-100">Mekatronik Sistem Çözümleri</a></li>
-          </ul>
-        </li>
-        <li><a href="#iletisim" class="hover:text-[#3a3a3a]">İletişim</a></li>
+      <ul class="flex flex-wrap justify-center sm:justify-end space-x-4 w-full sm:w-auto text-[#2e2e2e]">
+        <li><a href="index.html" class="hover:text-[#3a3a3a] block py-1">Anasayfa</a></li>
+        <li><a href="cozumler.html" class="hover:text-[#3a3a3a] block py-1">Çözümler</a></li>
+        <li><a href="#iletisim" class="hover:text-[#3a3a3a] block py-1">İletişim</a></li>
       </ul>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <section class="bg-gray-100 py-20">
-    <div class="max-w-5xl mx-auto px-6 text-center">
-      <h2 class="text-4xl font-bold mb-4">İmatek Mekatronik'e Hoş Geldiniz</h2>
-      <p class="text-lg text-gray-700 mb-6">Endüstriyel otomasyon çözümleri, kimyasal dozaj sistemleri ve daha fazlası...</p>
+  <section class="bg-gray-100 py-20 px-4">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Çözümlerimiz</h2>
+      <p class="text-lg text-gray-700 mb-6">İmatek Mekatronik olarak sunduğumuz çözümler iki ana başlık altında toplanır. Aşağıdan dilediğiniz alanı seçerek detaylara ulaşabilirsiniz.</p>
+      <div class="mt-10 flex flex-col sm:flex-row justify-center items-center gap-6">
+        <a href="cozumler-otomasyon.html" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow">Endüstriyel Otomasyon Çözümleri</a>
+        <a href="cozumler-mekatronik.html" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow">Mekatronik Sistem Çözümleri</a>
+      </div>
     </div>
   </section>
 
-  <!-- Hakkımızda -->
-  <section id="hakkimizda" class="bg-gray-100 py-16">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-      <h3 class="text-2xl font-semibold mb-4 text-[#2e2e2e]">Hakkımızda</h3>
+  
+  <section id="hakkimizda" class="bg-gray-100 py-16 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-2xl font-semibold mb-4">Hakkımızda</h3>
       <p class="text-gray-700">İmatek Mekatronik, kimya ve tekstil sektörüne özel otomasyon çözümleri geliştiren bir mühendislik firmasıdır. Tecrübemiz, inovasyon gücümüz ve müşteri odaklı yaklaşımımızla sektörde fark yaratıyoruz.</p>
     </div>
   </section>
 
   <!-- İletişim -->
-  <section id="iletisim" class="py-16">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-      <h3 class="text-2xl font-semibold mb-4 text-[#2e2e2e]">İletişime Geçin</h3>
+  <section id="iletisim" class="py-16 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-2xl font-semibold mb-4">İletişime Geçin</h3>
       <p class="text-gray-700 mb-6">Her türlü soru, teklif veya işbirliği için bizimle iletişime geçin.</p>
       <p>Email: info@imatek.com</p>
-      <p>Telefon: +90 212 000 00 00</p>
+      <p>Telefon: 0344 235 37 10</p>
+      <p>Mobil: 0539 561 89 32</p>
     </div>
   </section>
 
   <!-- WhatsApp Butonu -->
-  <a href="https://wa.me/905301234567" target="_blank" class="fixed bottom-4 right-4 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full shadow-lg flex items-center space-x-2">
+  <a href="https://wa.me/905395618932" target="_blank" class="fixed bottom-4 right-4 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full shadow-lg flex items-center space-x-2">
     <img src="whatsapp-icon.webp" alt="WhatsApp" class="h-6 w-6" />
     <span>WhatsApp</span>
   </a>
